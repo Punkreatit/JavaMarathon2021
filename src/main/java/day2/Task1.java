@@ -8,7 +8,7 @@ public class Task1 {
         int s = b.nextInt();
         if (s <= 4 && s >= 1) {
             System.out.println("Малоэтажный дом");
-        } else if (s >= 4 && s <= 8) {
+        } else if (s > 4 && s <= 8) {
             System.out.println("Среднеэтажный дом");
         } else if (s >= 9) {
             System.out.println("Многоэтажный дом");
