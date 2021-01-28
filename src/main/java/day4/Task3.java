@@ -29,15 +29,14 @@ public class Task3 {
                     count = i;
                 }
             }
-                //System.out.println(sum);
+            //System.out.println(sum);
         }
-                //System.out.println(max + " maximum");
-                //System.out.println();
-                System.out.println(count);
+        //System.out.println(max + " maximum");
+        //System.out.println();
+        System.out.println(count);
 
 
-
-        }
     }
+}
 
 

@@ -17,18 +17,19 @@ public class Task4 {
         for (int i = 0; i < array.length - 2; i++) {
             int sum = 0;
             for (int o = i; o < i + 3; o++) {
-                sum = sum+array[o];}
-
-            if (sum>maxSum) {
-                    maxSum=sum;
-                    index=i;
-                }
-
+                sum = sum + array[o];
             }
-            System.out.println(maxSum);
-            System.out.println(index);
 
+            if (sum > maxSum) {
+                maxSum = sum;
+                index = i;
+            }
 
         }
+        System.out.println(maxSum);
+        System.out.println(index);
+
+
     }
+}
 

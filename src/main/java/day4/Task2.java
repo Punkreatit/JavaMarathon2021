@@ -11,20 +11,20 @@ public class Task2 {
             array[i] = hz.nextInt(10000);
             System.out.println(array[i]);
         }
-        int min=array[0];
-        int max=array[0];
-        int sum =0;
-        int score=0;
+        int min = array[0];
+        int max = array[0];
+        int sum = 0;
+        int score = 0;
 
         for (int x : array) {
-            if(x<min){
-                min=x;
+            if (x < min) {
+                min = x;
             }
-            if (x>max){
-                max=x;
+            if (x > max) {
+                max = x;
             }
-            if(x%10==0){
-                sum = x+sum;
+            if (x % 10 == 0) {
+                sum = x + sum;
                 score++;
             }
         }
