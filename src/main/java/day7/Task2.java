@@ -12,6 +12,7 @@ public class Task2 {
         Player player5 = new Player(x.nextInt((11)) + 90);
         Player player6 = new Player(x.nextInt((11)) + 90);
         Player.info();
+
         for (int i = 0; i < 101; i++) {
             player6.run();
             player2.run();

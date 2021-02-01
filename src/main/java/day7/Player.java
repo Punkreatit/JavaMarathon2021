@@ -11,8 +11,8 @@ public class Player {
         this.stamina = stamina;
         if (countPlayers < 6) {
             countPlayers++;
-        } else {
         }
+
     }
 
     public int getStamina() {
@@ -26,7 +26,7 @@ public class Player {
 
     public void run() {
         this.stamina--;
-        if (stamina == MINSTAMINA) {
+        if (stamina <= MINSTAMINA) {
             countPlayers--;
         }
     }
