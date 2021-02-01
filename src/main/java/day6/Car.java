@@ -12,7 +12,7 @@ public class Car {
         model = z;
     }
 
-    public String getModel(String z) {
+    public String getModel() {
         return model;
     }
 
@@ -20,7 +20,7 @@ public class Car {
         yearOfRelease = x;
     }
 
-    public int getYearOfRelease(int x) {
+    public int getYearOfRelease() {
         return yearOfRelease;
     }
 
@@ -28,7 +28,7 @@ public class Car {
         color = a;
     }
 
-    public String getColor(String a) {
+    public String getColor() {
         return color;
     }
 
