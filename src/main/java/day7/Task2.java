@@ -14,7 +14,7 @@ public class Task2 {
         Player.info();
 
         for (int i = 0; i < 101; i++) {
-            player6.run();
+            player1.run();
             player2.run();
         }
         Player.info();

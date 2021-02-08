@@ -16,11 +16,13 @@ public class Task1 {
 
 
         long before1 = System.currentTimeMillis();
-
+        String string="";
+        //String string1=string+"";
         for (int i = 0; i <= 20000; i++) {
-            String string = i + " ";
-            System.out.print(string);
+            string = string + i + " ";
+
         }
+        System.out.print(string);
         System.out.println();
 
         long after1 = System.currentTimeMillis();

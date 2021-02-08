@@ -25,8 +25,13 @@ public class Player {
 
 
     public void run() {
-        this.stamina--;
-        if (stamina <= MINSTAMINA) {
+
+        if (stamina == MINSTAMINA) {
+            return;}
+
+        stamina--;
+
+        if(stamina==MINSTAMINA){
             countPlayers--;
         }
     }
