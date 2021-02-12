@@ -23,10 +23,10 @@ public class Shaman extends Hero implements Healer,PhysAttack,MagicAttack {
     public void healTeammate(Hero hero) {
         if(hero.health<=70){
             hero.health+=30;
-        }else if(hero.health>70){
+        }else
             hero.health=MAXHP;
         }
-    }
+
 
     @Override
     public void magicalAttack(Hero hero) {

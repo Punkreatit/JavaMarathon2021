@@ -13,10 +13,10 @@ public class Palladin extends Hero implements Healer,PhysAttack {
     public void healHimself() {
         if(health<=75){
             health+=25;
-        }else if(health>75){
+        }else
             health=MAXHP;
         }
-    }
+
 
     @Override
     public void healTeammate(Hero hero) {
